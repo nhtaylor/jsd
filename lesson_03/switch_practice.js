@@ -40,10 +40,10 @@ switch(yourGrade) {
     console.log("You earned an A!")
     break
   case 'B':
-    console.log("You earned an B")
+    console.log("You earned a B")
     break
   case 'C':
-    console.log("You earned an C")
+    console.log("You earned a C")
     break
   default:
     console.log("You earned less than a C")
