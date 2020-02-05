@@ -33,6 +33,7 @@
 //   console.log("You earned less than a C")
 // }
 
+// converted switch statement
 const yourGrade = "C"
 
 switch(yourGrade) {
