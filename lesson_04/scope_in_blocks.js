@@ -17,7 +17,7 @@ console.log(name) // <--- prints nothing because the 'name' variable can only be
 // let name
 if (true) {
     // this 'if' conditional block creates a new scope because we use 'let'
-   const name = 'Prince' // name is local to the if block
+   const name = 'Prince'
   console.log(name) // logs 'Prince'
 }
 // let name
