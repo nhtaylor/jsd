@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+.text-field {
+  padding: 5px;
+  font-size: 2rem;
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+.dropdown-container {
+  margin-top: 10px;
+}
+
+.dropdown {
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 300px;
+}
+
+button {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 0.25rem;
+  font-size: 1.3rem;
+  background-color: #5a67d8;
+  color: white;
+}

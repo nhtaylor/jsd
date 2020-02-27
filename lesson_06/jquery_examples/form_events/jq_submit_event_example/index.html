@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Submit Event Example</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+
+    <form id="registration-form" class="form-container">
+      <input
+        id="name"
+        class="text-field"
+        type="text"
+        name="name"
+        value=""
+        placeholder="enter your name"
+      />
+
+      <div class="dropdown-container">
+        <select id="city-select" name="city" class="dropdown">
+          <option value="nyc">New York City</option>
+          <option value="chi">Chicago</option>
+          <option value="dc">Washington D.C.</option>
+          <option value="bos">Boston</option>
+          <option value="atl">Atlanta</option>
+        </select>
+      </div>
+
+      <button>Submit</button>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

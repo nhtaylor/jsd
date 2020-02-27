@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+.box {
+  border: 1px black solid;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
